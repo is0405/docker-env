@@ -1,8 +1,6 @@
 # docker-env
 Dockerでwebの環境構築を行う(完了)
 
-[- firebaseとの接続を行う]
-
 ### Docker
 
 - Docker Desktop
@@ -64,12 +62,12 @@ make __drop/mysql
 ```
 
 # Delete World
-###全コンテナ削除
+### 全コンテナ削除
 ```
 make rm-container
 ```
 
-###全DockerImage削除
+### 全DockerImage削除
 ```
 make rm-images
 ```
